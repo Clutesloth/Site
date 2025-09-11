@@ -15,10 +15,11 @@ const Footer = () => {
             className="space-y-6"
           >
             <div className="flex items-center space-x-3">
-              <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-2 rounded-lg">
-                <BarChart3 className="h-8 w-8 text-white" />
-              </div>
-              <span className="text-2xl font-bold">StataBots</span>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_salon-optimizer/artifacts/e34f2f9c_%D0%9B%D0%BE%D0%B3%D0%BE%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5%20%D0%B3%D0%BE%D1%80.png"
+                alt="StataBots"
+                className="h-8"
+              />
             </div>
             <p className="text-gray-400 leading-relaxed">
               Автоматизация YCLIENTS для роста прибыли салонов красоты. 
