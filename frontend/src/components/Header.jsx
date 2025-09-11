@@ -93,13 +93,19 @@ const Header = () => {
                 onClick={() => scrollToSection('services')}
                 className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
-                Услуги
+                Боты
               </button>
               <button
                 onClick={() => scrollToSection('test-period')}
                 className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
                 Тестовый период
+              </button>
+              <button
+                onClick={() => scrollToSection('audit')}
+                className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >
+                Аудит
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
