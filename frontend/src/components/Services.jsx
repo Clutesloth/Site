@@ -18,43 +18,6 @@ const Services = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
-  const getIcon = (iconName) => {
-    const icons = {
-      phone: Phone,
-      users: Users,
-      search: Search
-    };
-    const IconComponent = icons[iconName] || Phone;
-    return <IconComponent className="h-8 w-8" />;
-  };
-
-  const getColorClasses = (color) => {
-    const colors = {
-      blue: {
-        bg: "from-blue-500 to-blue-600",
-        hover: "from-blue-600 to-blue-700",
-        text: "text-blue-600",
-        bgLight: "bg-blue-50",
-        border: "border-blue-200"
-      },
-      green: {
-        bg: "from-green-500 to-green-600", 
-        hover: "from-green-600 to-green-700",
-        text: "text-green-600",
-        bgLight: "bg-green-50",
-        border: "border-green-200"
-      },
-      purple: {
-        bg: "from-purple-500 to-purple-600",
-        hover: "from-purple-600 to-purple-700", 
-        text: "text-purple-600",
-        bgLight: "bg-purple-50",
-        border: "border-purple-200"
-      }
-    };
-    return colors[color] || colors.blue;
-  };
-
   return (
     <section id="services" className="py-20 bg-gradient-to-b from-white to-blue-50" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
