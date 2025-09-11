@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="group cursor-pointer">
                 <h4 className="font-medium text-blue-400 group-hover:text-blue-300 transition-colors">
-                  Бот пропущенные звонки
+                  Бот "Пропущенные звонки"
                 </h4>
                 <p className="text-sm text-gray-400 mt-1">
                   Контроль каждого звонка для увеличения записей на 30%
@@ -56,7 +56,7 @@ const Footer = () => {
               </div>
               <div className="group cursor-pointer">
                 <h4 className="font-medium text-green-400 group-hover:text-green-300 transition-colors">
-                  Бот показатели сотрудников
+                  Бот "Показатели сотрудников"
                 </h4>
                 <p className="text-sm text-gray-400 mt-1">
                   Мотивация персонала через рейтинги и статистику
