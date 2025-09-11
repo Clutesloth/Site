@@ -16,7 +16,7 @@ const Footer = () => {
           >
             <div className="flex items-center space-x-3">
               <img 
-                src="https://customer-assets.emergentagent.com/job_salon-optimizer/artifacts/e34f2f9c_%D0%9B%D0%BE%D0%B3%D0%BE%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5%20%D0%B3%D0%BE%D1%80.png"
+                src="https://customer-assets.emergentagent.com/job_salon-optimizer/artifacts/3b6d3rv3_6666.png"
                 alt="StataBots"
                 className="h-8"
               />
