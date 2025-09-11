@@ -129,12 +129,22 @@ const Footer = () => {
             © 2025 StataBots. Все права защищены.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
-            <span className="text-gray-400 text-sm hover:text-white transition-colors cursor-pointer">
+            <a 
+              href="https://disk.yandex.ru/i/T1AHhAkiY6_Imw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 text-sm hover:text-white transition-colors cursor-pointer"
+            >
               Политика конфиденциальности
-            </span>
-            <span className="text-gray-400 text-sm hover:text-white transition-colors cursor-pointer">
-              Условия использования
-            </span>
+            </a>
+            <a 
+              href="https://disk.yandex.ru/i/Hr69Ud4rjlw16Q"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 text-sm hover:text-white transition-colors cursor-pointer"
+            >
+              Публичная оферта
+            </a>
           </div>
         </motion.div>
       </div>
