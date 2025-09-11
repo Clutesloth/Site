@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import TestPeriod from "../components/TestPeriod";
+import AuditService from "../components/AuditService";
 import Footer from "../components/Footer";
 import { mockData } from "../data/mock";
 
@@ -32,6 +33,7 @@ const HomePage = () => {
       <Hero data={data.hero} />
       <Services data={data.services} />
       <TestPeriod data={data.testPeriod} />
+      <AuditService data={data.auditService} />
       <Footer />
     </div>
   );
