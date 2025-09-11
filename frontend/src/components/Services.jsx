@@ -88,7 +88,6 @@ const Services = ({ data }) => {
 const ServiceCard = ({ service, index }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
-  const colorClasses = getColorClasses(service.color);
 
   const getIcon = (iconName) => {
     const icons = {
@@ -126,6 +125,8 @@ const ServiceCard = ({ service, index }) => {
     };
     return colors[color] || colors.blue;
   };
+  
+  const colorClasses = getColorClasses(service.color);
 
   return (
     <motion.div
