@@ -297,6 +297,8 @@ metadata:
     stuck_count: 0
     priority: "medium"
     needs_retesting: true
+  - agent: "main"
+    message: "🚀 MAJOR MOBILE OPTIMIZATION & FIXES IMPLEMENTED: 1) ✅ ROI Calculator made full-width by removing side margins and max-width constraints 2) ✅ Removed calculation basis text from ROI Calculator 3) ✅ Replaced 'Что решает:' with 'Например:' in ServicesNew.jsx 4) ✅ Comprehensive mobile optimization: responsive headers (h-16 sm:h-20), touch targets, larger mobile buttons, improved Hero layout with responsive text sizes, optimized ROI Calculator with mobile breakpoints, responsive SupportButtons, enhanced CSS for mobile forms. Mobile UX significantly improved. Ready for testing to verify all improvements work correctly on both desktop and mobile devices."
     status_history:
       - working: true
         agent: "main"
