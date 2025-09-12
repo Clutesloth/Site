@@ -39,8 +39,8 @@ const ROICalculator = () => {
         }}></div>
       </div>
 
-      <section id="roi-calculator" className="relative py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+      <section id="roi-calculator" className="relative py-12 sm:py-20">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
