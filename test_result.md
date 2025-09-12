@@ -179,6 +179,9 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ PASSED: ROI Calculator fully functional. Service price input works, missed calls slider responds to changes, all 3 preset buttons (Маленький салон, Средний салон, Большой салон) work correctly. Calculations update dynamically and display results properly."
+      - working: true
+        agent: "testing"
+        comment: "✅ PASSED: ROI Calculator updated requirements verified successfully. Slider minimum value correctly set to 2 (min='2' attribute confirmed). Slider labels display '2', '25', '50' as expected. Bot cost calculation verified using 2000 rubles - tested with service price 1000 and 10 missed calls, ROI shows 250% which confirms formula: ((7000 savings - 2000 bot cost) / 2000) * 100 = 250%. Calculator functionality works dynamically, mobile responsiveness verified, all UI elements display correctly. All specific requirements from review request have been successfully implemented and tested."
 
   - task: "Test Period Section"
     implemented: true
