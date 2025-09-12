@@ -193,28 +193,57 @@ const ROICalculator = () => {
       <style jsx>{`
         .slider-custom::-webkit-slider-thumb {
           appearance: none;
-          height: 28px;
-          width: 28px;
+          height: 32px;
+          width: 32px;
           border-radius: 50%;
           background: linear-gradient(45deg, #3b82f6, #06b6d4);
           cursor: pointer;
-          box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
-          border: 3px solid white;
+          box-shadow: 0 6px 16px rgba(59, 130, 246, 0.5);
+          border: 4px solid white;
         }
         
         .slider-custom::-moz-range-thumb {
-          height: 28px;
-          width: 28px;
+          height: 32px;
+          width: 32px;
           border-radius: 50%;
           background: linear-gradient(45deg, #3b82f6, #06b6d4);
           cursor: pointer;
-          border: 3px solid white;
-          box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+          border: 4px solid white;
+          box-shadow: 0 6px 16px rgba(59, 130, 246, 0.5);
         }
 
         .slider-custom::-webkit-slider-track {
-          background: rgba(255, 255, 255, 0.2);
-          border-radius: 8px;
+          background: rgba(255, 255, 255, 0.3);
+          border-radius: 12px;
+          height: 6px;
+        }
+
+        .slider-custom::-moz-range-track {
+          background: rgba(255, 255, 255, 0.3);
+          border-radius: 12px;
+          height: 6px;
+        }
+
+        @media (max-width: 640px) {
+          .slider-custom::-webkit-slider-thumb {
+            height: 36px;
+            width: 36px;
+            border: 5px solid white;
+          }
+          
+          .slider-custom::-moz-range-thumb {
+            height: 36px;
+            width: 36px;
+            border: 5px solid white;
+          }
+
+          .slider-custom::-webkit-slider-track {
+            height: 8px;
+          }
+
+          .slider-custom::-moz-range-track {
+            height: 8px;
+          }
         }
       `}</style>
     </div>
