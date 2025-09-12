@@ -39,31 +39,31 @@ const ROICalculator = () => {
         }}></div>
       </div>
 
-      <section id="roi-calculator" className="relative py-12 sm:py-20">
-        <div className="w-full px-4 sm:px-6 lg:px-8">
+      <section id="roi-calculator" className="relative py-8 sm:py-12 lg:py-20">
+        <div className="w-full px-2 sm:px-4 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center mb-16"
+            className="text-center mb-8 sm:mb-12 lg:mb-16"
           >
             <motion.div 
-              className="inline-flex items-center justify-center p-4 bg-white/10 backdrop-blur-sm rounded-3xl mb-8"
+              className="inline-flex items-center justify-center p-3 sm:p-4 bg-white/10 backdrop-blur-sm rounded-3xl mb-6 sm:mb-8"
               whileHover={{ scale: 1.05 }}
             >
-              <Calculator className="h-16 w-16 text-white" />
+              <Calculator className="h-12 w-12 sm:h-16 sm:w-16 text-white" />
             </motion.div>
             
-            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 sm:mb-8">
+            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 lg:mb-8 px-2">
               🧮 Калькулятор экономии
             </h2>
             
-            <p className="text-lg sm:text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed px-4">
+            <p className="text-base sm:text-lg lg:text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed px-2 sm:px-4">
               Узнайте, сколько денег вы теряете из-за пропущенных звонков и какую прибыль получите с нашим решением
             </p>
           </motion.div>
 
-          <div className="grid lg:grid-cols-3 gap-6 sm:gap-8 items-start px-4 sm:px-6">
+          <div className="space-y-6 sm:space-y-8 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0 items-start px-2 sm:px-4 lg:px-6">
             {/* Calculator Input */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
