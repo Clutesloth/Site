@@ -102,34 +102,6 @@ const ROICalculator = () => {
                       </div>
                     </div>
                   </div>
-
-                  {/* Quick Presets */}
-                  <div className="grid grid-cols-3 gap-3">
-                    <Button 
-                      variant="outline" 
-                      size="sm"
-                      onClick={() => {setServicePrice(800); setMissedCalls(5)}}
-                      className="text-xs"
-                    >
-                      Маленький салон
-                    </Button>
-                    <Button 
-                      variant="outline" 
-                      size="sm"
-                      onClick={() => {setServicePrice(1500); setMissedCalls(10)}}
-                      className="text-xs"
-                    >
-                      Средний салон
-                    </Button>
-                    <Button 
-                      variant="outline" 
-                      size="sm"
-                      onClick={() => {setServicePrice(2500); setMissedCalls(20)}}
-                      className="text-xs"
-                    >
-                      Большой салон
-                    </Button>
-                  </div>
                 </div>
               </CardContent>
             </Card>
