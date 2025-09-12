@@ -100,11 +100,11 @@ const Hero = ({ data }) => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="flex flex-col sm:flex-row gap-4"
+              className="flex flex-col sm:flex-row gap-3 sm:gap-4"
             >
               <Button 
                 onClick={() => window.open('https://t.me/chmarket_bot', '_blank')}
-                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 touch-target"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-xl font-semibold text-base sm:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 touch-target min-h-[48px]"
                 size="lg"
               >
                 Подключить бесплатно
@@ -113,7 +113,7 @@ const Hero = ({ data }) => {
               <Button 
                 onClick={scrollToServices}
                 variant="outline"
-                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-semibold text-base sm:text-lg transition-all duration-300 touch-target"
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-6 sm:px-8 py-4 sm:py-5 rounded-xl font-semibold text-base sm:text-lg transition-all duration-300 touch-target min-h-[48px]"
                 size="lg"
               >
                 Узнать больше
@@ -124,12 +124,13 @@ const Hero = ({ data }) => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 1 }}
-              className="bg-gradient-to-r from-blue-50 to-cyan-50 p-4 sm:p-6 rounded-2xl border border-blue-200"
+              className="bg-gradient-to-r from-blue-50 to-cyan-50 p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-blue-200"
             >
-              <p className="text-blue-800 text-base sm:text-lg font-semibold mb-2">
-                🚀 3 дня бесплатного тестирования
+              <p className="text-blue-800 text-base sm:text-lg font-semibold mb-2 flex items-center">
+                <span className="text-xl sm:text-2xl mr-2">🚀</span>
+                3 дня бесплатного тестирования
               </p>
-              <p className="text-blue-600 text-sm sm:text-base">
+              <p className="text-blue-600 text-sm sm:text-base leading-relaxed">
                 Протестируйте все возможности без ограничений. Никаких скрытых платежей.
               </p>
             </motion.div>
