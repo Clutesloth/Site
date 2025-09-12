@@ -22,7 +22,7 @@ const ROICalculator = () => {
   const roi = ((monthlySavings - botCost) / botCost) * 100;
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-600 via-blue-700 to-cyan-600 relative overflow-hidden">
+    <section id="roi-calculator" className="py-20 bg-gradient-to-br from-blue-600 via-blue-700 to-cyan-600 relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute top-20 left-10 w-32 h-32 bg-white opacity-10 rounded-full blur-xl"></div>
