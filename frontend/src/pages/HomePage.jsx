@@ -356,13 +356,15 @@ console.log('YClients Integration v9.0 (Fixed URL) loaded');
         `
       }} />
       
-      <Header />
-      <Hero data={data.hero} />
-      <ServicesWithCalculator data={data.services} />
-      <StatsInfographic />
-      <TestPeriod data={data.testPeriod} />
-      <ContactForm />
-      <Footer />
+      <div className="relative z-10">
+        <Header />
+        <Hero data={data.hero} />
+        <ServicesWithCalculator data={data.services} />
+        <StatsInfographic />
+        <TestPeriod data={data.testPeriod} />
+        <ContactForm />
+        <Footer />
+      </div>
       <SupportButtons />
     </div>
   );
