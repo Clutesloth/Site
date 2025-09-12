@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { BarChart3, Mail, MessageCircle } from "lucide-react";
+import { BarChart3, Mail, MessageCircle, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
