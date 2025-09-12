@@ -166,7 +166,7 @@ const ROICalculator = () => {
             <Card className="bg-gradient-to-r from-green-500 to-green-600 text-white border-0 shadow-2xl">
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-bold">💰 С ботом вы сохраните</h3>
+                  <h3 className="text-xl font-bold">💰 С нашим решением Вы сохраните</h3>
                   <TrendingUp className="h-8 w-8 opacity-80" />
                 </div>
                 <div className="space-y-3">
