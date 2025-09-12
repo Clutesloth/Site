@@ -109,6 +109,15 @@ const Header = () => {
               >
                 Связаться
               </button>
+              
+              <Button 
+                onClick={() => scrollToSection('contact-form')}
+                variant="outline"
+                className="border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition-all duration-300 w-full text-lg touch-target"
+              >
+                Оставить заявку
+              </Button>
+              
               <Button 
                 onClick={() => window.open('https://t.me/chmarket_bot', '_blank')}
                 className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 w-full text-lg touch-target"
