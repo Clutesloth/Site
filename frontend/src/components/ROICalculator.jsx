@@ -30,7 +30,7 @@ const ROICalculator = () => {
         <div className="absolute top-1/2 left-1/3 w-16 h-16 bg-blue-300 opacity-15 rounded-full blur-md"></div>
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative w-full px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ const ROICalculator = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           {/* Calculator Input */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
