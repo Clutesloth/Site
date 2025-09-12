@@ -278,18 +278,29 @@ metadata:
   version: "1.0"
   test_sequence: 1
 
-test_plan:
-  current_focus:
-    - "Header Navigation"
-    - "Hero Section"
-    - "Services with Tabs"
-    - "ROI Calculator"
-    - "Contact Form"
-    - "Support Buttons"
-    - "Connect Buttons"
-  stuck_tasks: []
-  test_all: true
-  test_priority: "high_first"
+  - task: "ROI Calculator Full-Width Design"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/ROICalculator.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "✅ FIXED: Removed side margins from ROI Calculator by changing from 'px-4 sm:px-6 lg:px-8' + 'max-w-7xl mx-auto' to 'w-full px-4 sm:px-6'. Also removed calculation text 'Окупаемость нашего решения всего за ... дней!' and made component fully mobile responsive with proper breakpoints."
+
+  - task: "Text Replacement in Services"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/ServicesNew.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "✅ FIXED: Successfully replaced 'Что решает:' with 'Например:' in ServicesNew.jsx component as requested by user."
 
 agent_communication:
   - agent: "testing"
