@@ -101,3 +101,160 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Протестировать новый современный лендинг StataBots со следующими обновлениями: СТРУКТУРА САЙТА: 1. Header с новой навигацией: Услуги, Калькулятор, Тестовый период, Связаться 2. Hero секция с исправленным заголовком 'Автоматизация Вашего бизнеса для роста прибыли' 3. Услуги с табами (категории): YCLIENTS боты, Аудит филиала, Разработка 4. Инфографика со статистикой (4 блока с цифрами) 5. ROI калькулятор для расчета потерь от пропущенных звонков 6. Тестовый период 7. Форма 'Связаться со мной' (имя, телефон, название салона, комментарий) 8. Footer с контактами 9. Плавающие кнопки поддержки (Telegram и WhatsApp в правом нижнем углу)"
+
+frontend:
+  - task: "Header Navigation"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/Header.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test header navigation with menu items: Услуги, Калькулятор, Тестовый период, Связаться. Also test mobile menu functionality and scroll-to-section behavior."
+
+  - task: "Hero Section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/Hero.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test hero section with corrected title 'Автоматизация Вашего бизнеса для роста прибыли' and verify all buttons work correctly."
+
+  - task: "Services with Tabs"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/ServicesNew.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test services section with 3 tabs: YCLIENTS боты, Аудит филиала, Разработка. Verify tab switching works and all 5 services are displayed correctly."
+
+  - task: "Statistics Infographic"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/StatsInfographic.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test infographic section with 4 statistical blocks displaying key metrics."
+
+  - task: "ROI Calculator"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/ROICalculator.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test ROI calculator functionality - slider changes, input fields, calculations, and preset buttons for different salon sizes."
+
+  - task: "Test Period Section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/TestPeriod.jsx"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test test period section content and buttons functionality."
+
+  - task: "Contact Form"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/ContactForm.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test contact form with fields: имя, телефон, название салона, комментарий. Test form validation and submission."
+
+  - task: "Footer"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/Footer.jsx"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test footer with contact information and links."
+
+  - task: "Support Buttons"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components/SupportButtons.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test floating support buttons (Telegram @StatabotsM and WhatsApp +79939233646) in bottom right corner."
+
+  - task: "Connect Buttons"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/components"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to verify all 'Подключить' buttons lead to https://t.me/chmarket_bot"
+
+  - task: "Mobile Responsiveness"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test mobile responsiveness across all sections."
+
+metadata:
+  created_by: "testing_agent"
+  version: "1.0"
+  test_sequence: 1
+
+test_plan:
+  current_focus:
+    - "Header Navigation"
+    - "Hero Section"
+    - "Services with Tabs"
+    - "ROI Calculator"
+    - "Contact Form"
+    - "Support Buttons"
+    - "Connect Buttons"
+  stuck_tasks: []
+  test_all: true
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "testing"
+    message: "Starting comprehensive testing of StataBots landing page. Will test all sections systematically, focusing on high-priority items first: navigation, hero section, services tabs, ROI calculator, contact form, and support buttons. Will also verify mobile responsiveness and all button links."
