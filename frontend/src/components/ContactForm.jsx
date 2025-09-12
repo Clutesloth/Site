@@ -119,7 +119,14 @@ const ContactForm = () => {
           <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-2xl">
             <CardContent className="p-8 lg:p-12">
               {!isSubmitted ? (
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form 
+                  name="contact" 
+                  method="POST" 
+                  data-netlify="true"
+                  onSubmit={handleSubmit} 
+                  className="space-y-6"
+                >
+                  <input type="hidden" name="form-name" value="contact" />
                   <div className="grid md:grid-cols-2 gap-6">
                     {/* Name Field */}
                     <div className="space-y-2">
