@@ -103,14 +103,14 @@ const ROICalculator = () => {
                       <input
                         id="missed-calls"
                         type="range"
-                        min="1"
+                        min="2"
                         max="50"
                         value={missedCalls}
                         onChange={(e) => setMissedCalls(Number(e.target.value))}
                         className="w-full h-4 bg-white/20 rounded-lg appearance-none cursor-pointer slider-custom"
                       />
                       <div className="flex justify-between text-sm text-white/60 mt-2">
-                        <span>1</span>
+                        <span>2</span>
                         <span>25</span>
                         <span>50</span>
                       </div>
