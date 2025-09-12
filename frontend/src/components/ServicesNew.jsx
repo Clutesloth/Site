@@ -302,7 +302,7 @@ const ServiceCard = ({ service, index }) => {
               <CardContent className="p-6">
                 <h4 className="font-semibold text-orange-700 mb-4 flex items-center">
                   <AlertTriangle className="h-5 w-5 mr-2" />
-                  Что решает:
+                  Например:
                 </h4>
                 <ul className="space-y-2">
                   {service.problems?.map((problem, idx) => (
