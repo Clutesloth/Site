@@ -43,12 +43,6 @@ const Header = () => {
               Услуги
             </button>
             <button
-              onClick={() => scrollToSection('roi-calculator')}
-              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
-            >
-              Калькулятор
-            </button>
-            <button
               onClick={() => scrollToSection('test-period')}
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
             >
