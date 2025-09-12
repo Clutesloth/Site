@@ -57,41 +57,41 @@ const Hero = ({ data }) => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6"
+              className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 lg:gap-6"
             >
-              <div className="bg-white p-4 sm:p-6 rounded-2xl shadow-lg border border-blue-100">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-blue-100 p-2 rounded-lg">
+              <div className="bg-white p-3 sm:p-4 lg:p-6 rounded-xl sm:rounded-2xl shadow-lg border border-blue-100">
+                <div className="flex items-center space-x-2 sm:space-x-3">
+                  <div className="bg-blue-100 p-2 rounded-lg flex-shrink-0">
                     <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600" />
                   </div>
-                  <span className="text-gray-900 font-semibold text-sm sm:text-base">Контроль работы персонала</span>
+                  <span className="text-gray-900 font-semibold text-sm sm:text-base lg:text-lg leading-tight">Контроль работы персонала</span>
                 </div>
               </div>
               
-              <div className="bg-white p-4 sm:p-6 rounded-2xl shadow-lg border border-blue-100">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-green-100 p-2 rounded-lg">
+              <div className="bg-white p-3 sm:p-4 lg:p-6 rounded-xl sm:rounded-2xl shadow-lg border border-blue-100">
+                <div className="flex items-center space-x-2 sm:space-x-3">
+                  <div className="bg-green-100 p-2 rounded-lg flex-shrink-0">
                     <TrendingUp className="h-4 w-4 sm:h-5 sm:w-5 text-green-600" />
                   </div>
-                  <span className="text-gray-900 font-semibold text-sm sm:text-base">Рост продаж</span>
+                  <span className="text-gray-900 font-semibold text-sm sm:text-base lg:text-lg leading-tight">Рост продаж</span>
                 </div>
               </div>
               
-              <div className="bg-white p-4 sm:p-6 rounded-2xl shadow-lg border border-blue-100">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-purple-100 p-2 rounded-lg">
+              <div className="bg-white p-3 sm:p-4 lg:p-6 rounded-xl sm:rounded-2xl shadow-lg border border-blue-100">
+                <div className="flex items-center space-x-2 sm:space-x-3">
+                  <div className="bg-purple-100 p-2 rounded-lg flex-shrink-0">
                     <Shield className="h-4 w-4 sm:h-5 sm:w-5 text-purple-600" />
                   </div>
-                  <span className="text-gray-900 font-semibold text-sm sm:text-base">Аудит системы</span>
+                  <span className="text-gray-900 font-semibold text-sm sm:text-base lg:text-lg leading-tight">Аудит системы</span>
                 </div>
               </div>
               
-              <div className="bg-white p-4 sm:p-6 rounded-2xl shadow-lg border border-blue-100">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-orange-100 p-2 rounded-lg">
+              <div className="bg-white p-3 sm:p-4 lg:p-6 rounded-xl sm:rounded-2xl shadow-lg border border-blue-100">
+                <div className="flex items-center space-x-2 sm:space-x-3">
+                  <div className="bg-orange-100 p-2 rounded-lg flex-shrink-0">
                     <Zap className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600" />
                   </div>
-                  <span className="text-gray-900 font-semibold text-sm sm:text-base">Автоматизация</span>
+                  <span className="text-gray-900 font-semibold text-sm sm:text-base lg:text-lg leading-tight">Автоматизация</span>
                 </div>
               </div>
             </motion.div>
