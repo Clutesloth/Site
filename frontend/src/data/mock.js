@@ -10,9 +10,7 @@ export const mockData = {
       title: "Бот \"Пропущенные звонки\"",
       subtitle: "Контроль каждого звонка = увеличение прибыли",
       description: "Моментально уведомляет о пропущенных звонках и помогает не терять клиентов",
-      images: [
-        "https://customer-assets.emergentagent.com/job_salon-optimizer/artifacts/8lqeryhi_Slide%2016_9%20-%201.jpg"
-      ],
+      category: "yclients",
       icon: "phone",
       color: "blue",
       problems: [
