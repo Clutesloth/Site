@@ -231,7 +231,7 @@ const ServiceCard = ({ service, index }) => {
     } else if (service.category === 'development') {
       return 'Заказать разработку';
     } else {
-      return `Подключить ${service.title.toLowerCase()}`;
+      return 'Подключить';
     }
   };
 
