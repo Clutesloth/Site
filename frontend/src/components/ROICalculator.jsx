@@ -54,11 +54,11 @@ const ROICalculator = () => {
               <Calculator className="h-16 w-16 text-white" />
             </motion.div>
             
-            <h2 className="text-4xl lg:text-6xl font-bold text-white mb-8">
+            <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 sm:mb-8">
               🧮 Калькулятор экономии
             </h2>
             
-            <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed px-4">
               Узнайте, сколько денег вы теряете из-за пропущенных звонков и какую прибыль получите с нашим решением
             </p>
           </motion.div>
