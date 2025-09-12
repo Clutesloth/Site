@@ -85,25 +85,25 @@ const Header = () => {
             <nav className="flex flex-col space-y-4">
               <button
                 onClick={() => scrollToSection('services')}
-                className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2 text-lg"
               >
                 Услуги
               </button>
               <button
                 onClick={() => scrollToSection('test-period')}
-                className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2 text-lg"
               >
                 Тестовый период
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                className="text-left text-gray-700 hover:text-blue-600 font-medium transition-colors py-2 text-lg"
               >
                 Связаться
               </button>
               <Button 
                 onClick={() => window.open('https://t.me/chmarket_bot', '_blank')}
-                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-2 rounded-lg font-medium transition-all duration-300 w-full"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 w-full text-lg touch-target"
               >
                 Подключить
               </Button>
