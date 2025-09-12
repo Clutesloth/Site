@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import ServicesNew from "../components/ServicesNew";
+import ServicesWithCalculator from "../components/ServicesWithCalculator";
 import StatsInfographic from "../components/StatsInfographic";
-import ROICalculator from "../components/ROICalculator";
 import TestPeriod from "../components/TestPeriod";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
@@ -357,9 +356,8 @@ console.log('YClients Integration v9.0 (Fixed URL) loaded');
       
       <Header />
       <Hero data={data.hero} />
-      <ServicesNew data={data.services} />
+      <ServicesWithCalculator data={data.services} />
       <StatsInfographic />
-      <ROICalculator />
       <TestPeriod data={data.testPeriod} />
       <ContactForm />
       <Footer />
