@@ -186,6 +186,23 @@ const ServiceCard = ({ service, index }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
+  // Функция для скролла к форме
+  const scrollToContactForm = () => {
+    const element = document.getElementById('contact-form');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  // Функция для определения действия кнопки
+  const getButtonAction = () => {
+    if (service.category === 'audit' || service.category === 'development') {
+      return scrollToContactForm;
+    } else {
+      return () => window.open('https://t.me/chmarket_bot', '_blank');
+    }
+  };
+
   const getIcon = (iconName) => {
     const icons = {
       phone: Phone,
