@@ -38,7 +38,7 @@ const Hero = ({ data }) => {
               >
                 Автоматизация{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
-                  YCLIENTS
+                  Вашего бизнеса
                 </span>{" "}
                 для роста прибыли
               </motion.h1>
