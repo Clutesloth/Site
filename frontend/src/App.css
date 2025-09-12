@@ -194,9 +194,21 @@ a:focus {
   }
 }
 
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-  .text-gray-600 { color: #000000; }
-  .text-gray-400 { color: #333333; }
-  .bg-blue-50 { background-color: #ffffff; }
+/* Hide Emergent branding */
+[data-emergent], 
+.emergent-branding,
+*[class*="emergent"],
+*[id*="emergent"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Hide any bottom-right floating elements except our support buttons */
+.fixed.bottom-0.right-0:not([class*="support"]):not([class*="z-50"]) {
+  display: none !important;
+}
+
+div[style*="position: fixed"][style*="bottom"][style*="right"]:not([class*="support"]) {
+  display: none !important;
 }
