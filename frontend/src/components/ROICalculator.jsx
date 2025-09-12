@@ -190,20 +190,6 @@ const ROICalculator = () => {
               </motion.div>
             </motion.div>
           </div>
-
-          {/* Bottom info */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-16 text-center"
-          >
-            <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 max-w-4xl mx-auto border border-white/10">
-              <p className="text-white/80 text-lg">
-                <strong className="text-white">Расчет основан на:</strong> стоимости решения {botCost.toLocaleString()}₽/мес и эффективности 70% предотвращения потерь
-              </p>
-            </div>
-          </motion.div>
         </div>
       </section>
 
