@@ -65,6 +65,30 @@ const Footer = () => {
               </div>
               <div className="group cursor-pointer">
                 <h4 className="font-medium text-purple-400 group-hover:text-purple-300 transition-colors">
+                  💰 Бот "Отчет кассы за день"
+                </h4>
+                <p className="text-sm text-gray-400 mt-1">
+                  Автоматические ежедневные отчеты с точной аналитикой
+                </p>
+              </div>
+              <div className="group cursor-pointer">
+                <h4 className="font-medium text-orange-400 group-hover:text-orange-300 transition-colors">
+                  Бот "Зарплата персонала"
+                </h4>
+                <p className="text-sm text-gray-400 mt-1">
+                  Автоматический расчет зарплат с полной прозрачностью
+                </p>
+              </div>
+              <div className="group cursor-pointer">
+                <h4 className="font-medium text-indigo-400 group-hover:text-indigo-300 transition-colors">
+                  🎨 Разработка под заказ
+                </h4>
+                <p className="text-sm text-gray-400 mt-1">
+                  Telegram боты, программы, дизайн по ценам ниже рынка
+                </p>
+              </div>
+              <div className="group cursor-pointer">
+                <h4 className="font-medium text-gray-400 group-hover:text-gray-300 transition-colors">
                   Аудит филиала YCLIENTS
                 </h4>
                 <p className="text-sm text-gray-400 mt-1">
