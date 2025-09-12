@@ -30,10 +30,11 @@ const HomePage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white relative">
+      <AnimatedBackground />
       <Helmet>
         <title>StataBots - Автоматизация бизнеса для роста прибыли</title>
-        <meta name="description" content="Боты для салонов красоты, которые увеличивают выручку на 25-40% через контроль звонков и мотивацию персонала" />
+        <meta name="description" content="Боты и интеграции для бизнеса, которые увеличивают выручку на 25–40 % за счёт автоматизации процессов и контроля работы персонала" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Helmet>
       
