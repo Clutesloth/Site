@@ -416,7 +416,7 @@ const ServiceCard = ({ service, index }) => {
             whileTap={{ scale: 0.95 }}
           >
             <Button
-              onClick={() => window.open('https://t.me/chmarket_bot', '_blank')}
+              onClick={getButtonAction()}
               className={`w-full sm:w-auto bg-gradient-to-r ${colorClasses.bg} hover:${colorClasses.hover} text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-lg hover:shadow-xl`}
               size="lg"
             >
