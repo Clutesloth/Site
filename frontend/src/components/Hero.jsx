@@ -139,13 +139,13 @@ const Hero = ({ data }) => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="relative"
+            className="relative mt-8 lg:mt-0"
           >
             <div className="relative z-10">
               <img
                 src="https://customer-assets.emergentagent.com/job_salon-optimizer/artifacts/8lqeryhi_Slide%2016_9%20-%201.jpg"
                 alt="StataBots Dashboard"
-                className="w-full h-auto rounded-3xl shadow-2xl border-8 border-white"
+                className="w-full h-auto rounded-2xl sm:rounded-3xl shadow-2xl border-4 sm:border-8 border-white"
               />
             </div>
             
@@ -153,22 +153,22 @@ const Hero = ({ data }) => {
             <motion.div
               animate={{ y: [-20, 20, -20] }}
               transition={{ duration: 4, repeat: Infinity }}
-              className="absolute -top-8 -right-8 bg-white p-4 rounded-2xl shadow-xl border border-blue-100 z-20"
+              className="absolute -top-4 sm:-top-8 -right-4 sm:-right-8 bg-white p-3 sm:p-4 rounded-2xl shadow-xl border border-blue-100 z-20"
             >
               <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="text-sm font-semibold text-gray-700">Активен</span>
+                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full animate-pulse"></div>
+                <span className="text-xs sm:text-sm font-semibold text-gray-700">Активен</span>
               </div>
             </motion.div>
 
             <motion.div
               animate={{ y: [20, -20, 20] }}
               transition={{ duration: 3, repeat: Infinity, delay: 1 }}
-              className="absolute -bottom-8 -left-8 bg-white p-4 rounded-2xl shadow-xl border border-blue-100 z-20"
+              className="absolute -bottom-4 sm:-bottom-8 -left-4 sm:-left-8 bg-white p-3 sm:p-4 rounded-2xl shadow-xl border border-blue-100 z-20"
             >
               <div className="flex items-center space-x-2">
-                <TrendingUp className="h-5 w-5 text-green-600" />
-                <span className="text-sm font-semibold text-gray-700">+25% выручка</span>
+                <TrendingUp className="h-4 w-4 sm:h-5 sm:w-5 text-green-600" />
+                <span className="text-xs sm:text-sm font-semibold text-gray-700">+25% выручка</span>
               </div>
             </motion.div>
           </motion.div>
