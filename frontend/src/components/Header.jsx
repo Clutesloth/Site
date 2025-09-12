@@ -56,7 +56,15 @@ const Header = () => {
             </button>
           </nav>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3 sm:space-x-4">
+            <Button 
+              onClick={() => scrollToSection('contact-form')}
+              variant="outline"
+              className="hidden md:inline-flex border-2 border-blue-600 text-blue-600 hover:bg-blue-50 px-4 lg:px-6 py-2 rounded-lg font-medium transition-all duration-300 text-sm lg:text-base"
+            >
+              Оставить заявку
+            </Button>
+            
             <Button 
               onClick={() => window.open('https://t.me/chmarket_bot', '_blank')}
               className="hidden md:inline-flex bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-4 lg:px-6 py-2 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl text-sm lg:text-base"
