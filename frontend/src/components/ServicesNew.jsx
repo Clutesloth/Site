@@ -114,24 +114,27 @@ const ServicesNew = ({ data }) => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full grid-cols-3 mb-12 h-16 bg-white/80 backdrop-blur-sm">
+            <TabsList className="grid w-full grid-cols-3 mb-8 sm:mb-12 h-12 sm:h-16 bg-white/80 backdrop-blur-sm rounded-xl">
               <TabsTrigger 
                 value="yclients" 
-                className="text-lg font-semibold py-4 data-[state=active]:bg-blue-500 data-[state=active]:text-white"
+                className="text-sm sm:text-lg font-semibold py-2 sm:py-4 data-[state=active]:bg-blue-500 data-[state=active]:text-white rounded-lg"
               >
-                🤖 Боты для YCLIENTS
+                <span className="hidden sm:inline">🤖 Боты для YCLIENTS</span>
+                <span className="sm:hidden">🤖 Боты</span>
               </TabsTrigger>
               <TabsTrigger 
                 value="audit" 
-                className="text-lg font-semibold py-4 data-[state=active]:bg-purple-500 data-[state=active]:text-white"
+                className="text-sm sm:text-lg font-semibold py-2 sm:py-4 data-[state=active]:bg-purple-500 data-[state=active]:text-white rounded-lg"
               >
-                📊 Аудит филиала
+                <span className="hidden sm:inline">📊 Аудит филиала</span>
+                <span className="sm:hidden">📊 Аудит</span>
               </TabsTrigger>
               <TabsTrigger 
                 value="development" 
-                className="text-lg font-semibold py-4 data-[state=active]:bg-indigo-500 data-[state=active]:text-white"
+                className="text-sm sm:text-lg font-semibold py-2 sm:py-4 data-[state=active]:bg-indigo-500 data-[state=active]:text-white rounded-lg"
               >
-                🎨 Разработка
+                <span className="hidden sm:inline">🎨 Разработка</span>
+                <span className="sm:hidden">🎨 Код</span>
               </TabsTrigger>
             </TabsList>
 
