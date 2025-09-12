@@ -302,10 +302,18 @@ metadata:
         agent: "main"
         comment: "✅ FIXED: Successfully replaced 'Что решает:' with 'Например:' in ServicesNew.jsx component as requested by user."
 
-agent_communication:
-  - agent: "testing"
-    message: "Starting comprehensive testing of StataBots landing page. Will test all sections systematically, focusing on high-priority items first: navigation, hero section, services tabs, ROI calculator, contact form, and support buttons. Will also verify mobile responsiveness and all button links."
-  - agent: "testing"
-    message: "✅ COMPREHENSIVE TESTING COMPLETED SUCCESSFULLY! All 12 tasks have been tested and are working correctly. The StataBots landing page is fully functional with all required features: 1) Header navigation with 4 menu items working, 2) Hero section with correct title, 3) Services with 3 working tabs showing all 5 services, 4) Statistics infographic with 4 blocks, 5) Fully functional ROI calculator, 6) Test period section, 7) Working contact form with all 4 fields, 8) Footer with contact info, 9) Floating support buttons (Telegram @StatabotsM and WhatsApp +79939233646), 10) All 9 'Подключить' buttons leading to https://t.me/chmarket_bot, 11) Mobile responsiveness working perfectly. No critical issues found. Ready for production use."
-  - agent: "testing"
-    message: "🎯 FINAL VERSION TESTING COMPLETE - 17 FIXES VERIFICATION: Tested the final StataBots landing page with all requested fixes. RESULTS: ✅ 14/15 fixes successfully implemented (93% complete). PASSED: 1) Header navigation (3 items: Услуги, Тестовый период, Связаться - Калькулятор removed), 2) Hero title 'Автоматизация Вашего бизнеса для роста прибыли', 3) 'Контроль работы персонала' properly capitalized, 4) ROI Calculator positioned between first and second bot, 5) Calculator text 'С нашим решением Вы сохраните', 6) Preset buttons removed, 7) Cash report shows 'еженедельно' statistics, 8) Russian quotes «Подключить» in test period, 9) Footer without YCLIENTS, 10) All 6 services in footer, 11) @StatabotsM contact, 12) +79939233646 contact, 13) Telegram floating support, 14) WhatsApp floating support. MINOR ISSUE: Some buttons still have long names ('Подключить бесплатно', 'Подключить бот за 3 минуты', 'Подключить прямо сейчас') instead of just 'Подключить'. Overall: Landing page is fully functional and ready for production with 93% of requested fixes implemented."
+test_plan:
+  current_focus:
+    - "ROI Calculator Full-Width Design"  
+    - "Text Replacement in Services"
+    - "Mobile Responsiveness"
+    - "Header Navigation"
+    - "Hero Section"
+    - "Services with Tabs"
+    - "ROI Calculator"
+    - "Contact Form"
+    - "Support Buttons"
+    - "Connect Buttons"
+  stuck_tasks: []
+  test_all: true
+  test_priority: "high_first"
