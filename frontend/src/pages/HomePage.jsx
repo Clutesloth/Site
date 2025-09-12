@@ -8,6 +8,7 @@ import TestPeriod from "../components/TestPeriod";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 import SupportButtons from "../components/SupportButtons";
+import AnimatedBackground from "../components/AnimatedBackground";
 import { mockData } from "../data/mock";
 
 const HomePage = () => {
