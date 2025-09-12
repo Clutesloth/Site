@@ -64,7 +64,7 @@ const Hero = ({ data }) => {
                   <div className="bg-blue-100 p-2 rounded-lg">
                     <Phone className="h-5 w-5 text-blue-600" />
                   </div>
-                  <span className="text-gray-900 font-semibold">контроль работы персонала</span>
+                  <span className="text-gray-900 font-semibold">Контроль работы персонала</span>
                 </div>
               </div>
               
