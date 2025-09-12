@@ -123,6 +123,38 @@ const Footer = () => {
                 </div>
               </motion.a>
 
+              <motion.a
+                href="https://t.me/StatabotsM"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors group"
+                whileHover={{ x: 5 }}
+              >
+                <div className="bg-blue-600 p-2 rounded-lg group-hover:bg-blue-500 transition-colors">
+                  <MessageCircle className="h-5 w-5" />
+                </div>
+                <div>
+                  <div className="font-medium">Техподдержка Telegram</div>
+                  <div className="text-sm opacity-75">@StatabotsM</div>
+                </div>
+              </motion.a>
+
+              <motion.a
+                href="https://wa.me/79939233646"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors group"
+                whileHover={{ x: 5 }}
+              >
+                <div className="bg-green-600 p-2 rounded-lg group-hover:bg-green-500 transition-colors">
+                  <Phone className="h-5 w-5" />
+                </div>
+                <div>
+                  <div className="font-medium">WhatsApp поддержка</div>
+                  <div className="text-sm opacity-75">+79939233646</div>
+                </div>
+              </motion.a>
+
               <div className="bg-gradient-to-r from-blue-900/50 to-cyan-900/50 p-6 rounded-2xl border border-blue-800/30">
                 <h4 className="font-semibold text-blue-400 mb-3">
                   🚀 Начните прямо сейчас
