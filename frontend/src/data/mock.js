@@ -52,7 +52,7 @@ export const mockData = {
       title: "Бот \"Показатели сотрудников\"",
       subtitle: "То, что измеряется - растет!",
       description: "Рейтинги и статистика для мотивации персонала и роста продаж",
-      image: "https://customer-assets.emergentagent.com/job_salon-optimizer/artifacts/q75l9ew6_Slide%2016_9%20-%202.jpg",
+      category: "yclients",
       icon: "users",
       color: "green", 
       problems: [
