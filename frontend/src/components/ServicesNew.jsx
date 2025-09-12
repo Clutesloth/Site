@@ -139,7 +139,7 @@ const ServicesNew = ({ data }) => {
             </TabsList>
 
             <TabsContent value="yclients" className="mt-0">
-              <div className="grid gap-12">
+              <div className="grid gap-8 sm:gap-12">
                 {groupedServices?.yclients?.map((service, index) => (
                   <ServiceCard key={service.id} service={service} index={index} />
                 ))}
@@ -147,7 +147,7 @@ const ServicesNew = ({ data }) => {
             </TabsContent>
 
             <TabsContent value="audit" className="mt-0">
-              <div className="grid gap-12">
+              <div className="grid gap-8 sm:gap-12">
                 {groupedServices?.audit?.map((service, index) => (
                   <ServiceCard key={service.id} service={service} index={index} />
                 ))}
@@ -155,7 +155,7 @@ const ServicesNew = ({ data }) => {
             </TabsContent>
 
             <TabsContent value="development" className="mt-0">
-              <div className="grid gap-12">
+              <div className="grid gap-8 sm:gap-12">
                 {groupedServices?.development?.map((service, index) => (
                   <ServiceCard key={service.id} service={service} index={index} />
                 ))}
