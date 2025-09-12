@@ -8,7 +8,7 @@ import { Calculator, TrendingUp, AlertTriangle, Zap, Target } from "lucide-react
 
 const ROICalculator = () => {
   const [servicePrice, setServicePrice] = useState(1500);
-  const [missedCalls, setMissedCalls] = useState(10);
+  const [missedCalls, setMissedCalls] = useState(10); // Убеждаемся, что начальное значение >= 2
   const [totalLoss, setTotalLoss] = useState(15000);
 
   useEffect(() => {
