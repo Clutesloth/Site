@@ -284,11 +284,14 @@ metadata:
     file: "/app/frontend/src/components/ROICalculator.jsx"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: true
         agent: "main"
         comment: "✅ FIXED: Removed side margins from ROI Calculator by changing from 'px-4 sm:px-6 lg:px-8' + 'max-w-7xl mx-auto' to 'w-full px-4 sm:px-6'. Also removed calculation text 'Окупаемость нашего решения всего за ... дней!' and made component fully mobile responsive with proper breakpoints."
+      - working: true
+        agent: "testing"
+        comment: "✅ PASSED: ROI Calculator full-width design verified successfully. Found 4 full-width elements in calculator. Calculation basis text completely removed (0 instances found). Calculator functionality working perfectly - service price input and missed calls slider both functional with dynamic calculations updating correctly. Calculator takes full width without side margins as requested."
 
   - task: "Text Replacement in Services"
     implemented: true
@@ -296,13 +299,14 @@ metadata:
     file: "/app/frontend/src/components/ServicesNew.jsx"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
-  - agent: "main"
-    message: "🚀 MAJOR MOBILE OPTIMIZATION & FIXES IMPLEMENTED: 1) ✅ ROI Calculator made full-width by removing side margins and max-width constraints 2) ✅ Removed calculation basis text from ROI Calculator 3) ✅ Replaced 'Что решает:' with 'Например:' in ServicesNew.jsx 4) ✅ Comprehensive mobile optimization: responsive headers (h-16 sm:h-20), touch targets, larger mobile buttons, improved Hero layout with responsive text sizes, optimized ROI Calculator with mobile breakpoints, responsive SupportButtons, enhanced CSS for mobile forms. Mobile UX significantly improved. Ready for testing to verify all improvements work correctly on both desktop and mobile devices."
+    needs_retesting: false
     status_history:
       - working: true
         agent: "main"
         comment: "✅ FIXED: Successfully replaced 'Что решает:' with 'Например:' in ServicesNew.jsx component as requested by user."
+      - working: true
+        agent: "testing"
+        comment: "✅ PASSED: Text replacement verified successfully. Found 4 instances of 'Например:' text and 0 instances of old 'Что решает:' text. Text replacement from 'Что решает:' to 'Например:' completed successfully throughout the services section."
 
 test_plan:
   current_focus:
